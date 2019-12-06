@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Contact Path of Light</title>
+      <link href="yoga.css" rel="stylesheet">
+	  <meta name="description" content="This provides information about the contact numbers, email, and personalities to contact in need for the path of yoga light studio ">
+      <meta name="viewport" content="width=device-width, intial-scale=1.0">
+   </head>
+   <body>
+      <div id="wrapper">
+         <h1>Path of Light Yoga Studio</h1>
+         <nav>
+            <div style="margin-left: 2em">
+               <a href="index.html">Home</a> <a href="classes.html">Classes</a> <a href="Schedule.html">Schedule</a> <a href="Contact.html">Contact</a>
+            </div>
+         </nav>
+         <main>
+            <h2>Contact Path of Light Yoga Studio</h2>
+			<p>Required information is marked with an asterisk * </p>
+            <form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+               <label for="myName">* Name:</label>
+               <input type="text" name="myName" id="myName" required="required" placeholder="name">
+               <label for="myEmail">* E-mail:</label>
+               <input type="email" name="myEmail" id="myEmail" required="required" placeholder="email">
+			   <label for="myHear">How did you hear about us?</label>
+			   <input list="socialMedia" name="myHear" id="myHear" >
+			   <datalist id="socialMedia">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			  </datalist>
+               <label for="myComments">* Comments:</label>
+               <textarea name="myComments" id="myComments" rows="2" cols="20" required="required" placeholder ></textarea>
+               <input type="submit" Value="Send Now">
+            </form>
+         </main>
+         <footer>
+            copyright &copy;2018 Path of Light Yoga Studio
+         </footer>
+      </div>
+   </body>
+</html>
